@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/newPetBtn"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Add"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:text="My Pets"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <LinearLayout
+        android:id="@+id/petListLayout"
+        android:layout_width="285dp"
+        android:layout_height="391dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="218dp">
+
+        <Button
+            android:id="@+id/pet1Btn"
+            android:layout_width="287dp"
+            android:layout_height="82dp"
+            android:backgroundTint="@color/sec_btn_color"
+            android:text="Pet 1"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <Button
+            android:id="@+id/pet2Btn"
+            android:layout_width="287dp"
+            android:layout_height="82dp"
+            android:backgroundTint="@color/sec_btn_color"
+            android:text="Pet 2"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="353dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

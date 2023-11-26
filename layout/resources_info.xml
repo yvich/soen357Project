@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/groomingField"
+        android:layout_width="332dp"
+        android:layout_height="113dp"
+        android:text="links to grooming ..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="42dp"
+        android:text="Grooming"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <TextView
+        android:id="@+id/healthField"
+        android:layout_width="332dp"
+        android:layout_height="113dp"
+        android:text="links to health ..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="42dp"
+        android:text="General Health"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:text="Feeding tips"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/feedingTipsField"
+        android:layout_width="332dp"
+        android:layout_height="113dp"
+        android:text="links to feeding tips ..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="61dp"
+        android:text="Pet Type"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

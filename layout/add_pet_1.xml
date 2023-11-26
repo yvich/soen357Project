@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/savePetBtn"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Next"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <Button
+        android:id="@+id/cancelPetBtn"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/sec_btn_color"
+        android:text="Cancel"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="621dp" />
+
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"></include>
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:text="1. Add a new Pet"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="409dp"
+        android:divider="@drawable/empty_small_divider2"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="199dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="206dp" />
+
+            <EditText
+                android:id="@+id/petNameField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="201dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <Spinner
+                android:id="@+id/typeDropdown"
+                android:layout_width="208dp"
+                android:layout_height="35dp"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vet:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="481dp" />
+
+            <Spinner
+                android:id="@+id/vetDropdown"
+                android:layout_width="208dp"
+                android:layout_height="35dp"
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="481dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sex:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="389dp" />
+
+            <Spinner
+                android:id="@+id/sexDropdown"
+                android:layout_width="208dp"
+                android:layout_height="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="389dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthday:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="346dp" />
+
+            <EditText
+                android:id="@+id/birthdayField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sterilized:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="439dp" />
+
+            <Spinner
+                android:id="@+id/sterilizedDropdown"
+                android:layout_width="208dp"
+                android:layout_height="35dp"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="439dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergies:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="523dp" />
+
+            <EditText
+                android:id="@+id/petAllergiesField"
+                android:layout_width="206dp"
+                android:layout_height="41dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Allergies"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="521dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breed:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="301dp" />
+
+            <EditText
+                android:id="@+id/petBreedField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Breed"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="293dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

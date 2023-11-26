@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:text="Current Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:text="Today"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/todaysEventsText"
+        android:layout_width="332dp"
+        android:layout_height="113dp"
+        android:text="Today's events ..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <Button
+        android:id="@+id/newEventBtn"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="New"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="345dp"
+        android:layout_height="224dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="160dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

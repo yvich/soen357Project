@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/savePprevsBtn"
+        android:layout_width="186dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Next"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="81dp"
+        android:text="4. Add Parasite Preventions"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <LinearLayout
+        android:id="@+id/petPPrevsLayout"
+        android:layout_width="346dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="32dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="218dp">
+        <LinearLayout
+            android:id="@+id/pprevsLayoutField"
+            android:layout_width="350dp"
+            android:layout_height="171dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/box_color"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="204dp">
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="204dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    tools:layout_editor_absoluteX="44dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+                <EditText
+                    android:id="@+id/nameField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="204dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date administered:"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    tools:layout_editor_absoluteX="44dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+                <EditText
+                    android:id="@+id/dateAdministeredField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="204dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next treatment date:"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    tools:layout_editor_absoluteX="44dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+                <EditText
+                    android:id="@+id/nextDateField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/addVaccBtn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/main_btn_color"
+            android:text="Add"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

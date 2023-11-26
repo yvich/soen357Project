@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+    <Button
+        android:id="@+id/agendaBtn"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Agenda"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/resourcesBtn"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Resources"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/myVetsBtn"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="My Veterinarians"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/myPetsBtn"
+        android:layout_width="287dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="My Pets"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="311dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/saveEventBtn"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/main_btn_color"
+        android:text="Save"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <Button
+        android:id="@+id/cancelEventBtn"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/sec_btn_color"
+        android:text="Cancel"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        layout="@layout/top_nav"
+        />
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:text="Create Event"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeats:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <EditText
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <Spinner
+        android:id="@+id/petDropdown"
+        android:layout_width="213dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Spinner
+        android:id="@+id/categoryDropdown"
+        android:layout_width="213dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Spinner
+        android:id="@+id/repeatsDropdown"
+        android:layout_width="213dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <EditText
+        android:id="@+id/eventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <EditText
+        android:id="@+id/eventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
