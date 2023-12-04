@@ -8,8 +8,8 @@ owner’s well-being, we aim to provide functionalities that can be used easily 
 
 # Team Members
 - Jessica Beauchemin JBeauche 40188873
-- Marwan Al-Ghaziri GITHUB USERNAME 40126554
-- Yves Chuenmogne GITHUB USERNAME 40129773
+- Marwan Al-Ghaziri marwanGhaziri 40126554
+- Yves Chuenmogne yvychivy 40129773
 - Xin Jia Cao Xin-Jia 40207469
 - Gu JiaQi GITHUB USERNAME 40082054
 
