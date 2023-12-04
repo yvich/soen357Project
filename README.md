@@ -18,3 +18,13 @@ The project video teaser can be found [here](https://drive.google.com/file/d/1Zq
 
 # Prototype
 <img src="Prototype Screenshots/OpeningView.png" width="30%"></img> 
+<img src="Prototype Screenshots/login.png" width="30%"></img>
+<img src="Prototype Screenshots/signup.png" width="30%"></img>
+<img src="Prototype Screenshots/home.png" width="30%"></img>
+<img src="Prototype Screenshots/MyPets.png" width="30%"></img>
+<img src="Prototype Screenshots/AddNewPet.png" width="30%"></img>
+<img src="Prototype Screenshots/MyVets.png" width="30%"></img>
+<img src="Prototype Screenshots/AddNewVet.png" width="30%"></img>
+<img src="Prototype Screenshots/Agenda.png" width="30%"></img>
+<img src="Prototype Screenshots/Resources.png" width="30%"></img>
+<img src="Prototype Screenshots/ResourcesCat.png" width="30%"></img>
