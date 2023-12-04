@@ -17,14 +17,4 @@ owner’s well-being, we aim to provide functionalities that can be used easily 
 The project video teaser can be found [here](https://drive.google.com/file/d/1Zqesgnaz9q8Uc70osxeLAhhyAgAL2Az1/view?usp=sharing)
 
 # Prototype
-<img src="Prototype Screenshots/OpeningView.png" width="30%"></img> 
-<img src="Prototype Screenshots/login.png" width="30%"></img>
-<img src="Prototype Screenshots/signup.png" width="30%"></img>
-<img src="Prototype Screenshots/home.png" width="30%"></img>
-<img src="Prototype Screenshots/MyPets.png" width="30%"></img>
-<img src="Prototype Screenshots/AddNewPet.png" width="30%"></img>
-<img src="Prototype Screenshots/MyVets.png" width="30%"></img>
-<img src="Prototype Screenshots/AddNewVet.png" width="30%"></img>
-<img src="Prototype Screenshots/Agenda.png" width="30%"></img>
-<img src="Prototype Screenshots/Resources.png" width="30%"></img>
-<img src="Prototype Screenshots/ResourcesCat.png" width="30%"></img>
+<img src="Prototype Screenshots/OpeningView.png" width="30%"></img> <img src="Prototype Screenshots/login.png" width="30%"></img><img src="Prototype Screenshots/signup.png" width="30%"></img><img src="Prototype Screenshots/home.png" width="30%"></img><img src="Prototype Screenshots/MyPets.png" width="30%"></img><img src="Prototype Screenshots/AddNewPet.png" width="30%"></img><img src="Prototype Screenshots/MyVets.png" width="30%"></img><img src="Prototype Screenshots/AddNewVet.png" width="30%"></img><img src="Prototype Screenshots/Agenda.png" width="30%"></img><img src="Prototype Screenshots/Resources.png" width="30%"></img><img src="Prototype Screenshots/ResourcesCat.png" width="30%"></img>
