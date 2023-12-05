@@ -11,7 +11,7 @@ owner’s well-being, we aim to provide functionalities that can be used easily 
 - Marwan Al-Ghaziri marwanGhaziri 40126554
 - Yves Chuenmogne yvychivy 40129773
 - Xin Jia Cao Xin-Jia 40207469
-- Gu JiaQi GITHUB USERNAME 40082054
+- Gu JiaQi InterFaceGu 40082054
 
 # Video Teaser
 The project video teaser can be found [here](https://drive.google.com/file/d/1Zqesgnaz9q8Uc70osxeLAhhyAgAL2Az1/view?usp=sharing)
