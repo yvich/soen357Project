@@ -13,6 +13,10 @@ owner’s well-being, we aim to provide functionalities that can be used easily 
 - Xin Jia Cao Xin-Jia 40207469
 - Gu JiaQi InterFaceGu 40082054
 
+# Navigating the Repository
+Within the Design folder, you'll discover a collection of design sketches, wireframes, mockups, and survey results, providing a comprehensive overview of the creative and analytical aspects of the project.
+Navigate to the designated "PetCare" folder to access the source code for the PetCare app.
+
 # Video Teaser
 The project video teaser can be found [here](https://drive.google.com/file/d/1Zqesgnaz9q8Uc70osxeLAhhyAgAL2Az1/view?usp=sharing)
 
